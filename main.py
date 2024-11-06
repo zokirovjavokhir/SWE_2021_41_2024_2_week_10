@@ -2,6 +2,8 @@ from typing import List
 
 # Skeleton code for even_list
 def even_list(int_list: List[int]) -> List[int]:
+    return [num for num in int_list if num % 2 == 0]
+
     """
     Determines if a number is even and return an even list.
     Args:
